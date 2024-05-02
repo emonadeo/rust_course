@@ -1,4 +1,7 @@
-# Guessing Game
+> [!IMPORTANT]
+> This file is a draft in subject to major changes.
+
+# Control Flow
 
 https://amcs.website/
 
@@ -229,4 +232,4 @@ graph TD;
 ### Preparation
 
 -   Create a new Cargo Project with cargo new
--   Copy the content of [02_guessing_game/main.rs](02_guessing_game/main.rs) into the `main.rs` in your Project
+-   Copy the content of [02_guessing_game/src/main.rs](02_guessing_game/src/main.rs) into the `main.rs` in your Project
