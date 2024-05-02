@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> This file is a draft in subject to major changes.
+> This file is a draft and subject to major changes.
 
 # Control Flow
 
