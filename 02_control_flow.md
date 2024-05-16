@@ -3,10 +3,6 @@
 
 # Control Flow
 
-https://amcs.website/
-
-Pin: 918594
-
 ## Recap
 
 1. pfhaupt/slides -> Recap (Ordnerstruktur)
