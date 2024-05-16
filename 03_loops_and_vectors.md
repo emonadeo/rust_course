@@ -36,6 +36,7 @@ while i < 5 {
     println!("Hello World!");
     i += 1;
 }
+println!("i = {}", i);
 ```
 
 > [!INFO]
