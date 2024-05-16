@@ -199,3 +199,39 @@ graph TD;
 ```
 
 Modify your existing code from last exercise to allow for this.
+
+## Arrays and Vectors
+
+See [Slides](https://github.com/pfhaupt/progkurs/blob/master/rust-beginner/03%20-%20Arrays%20and%20Vectors/03%20-%20slides.pdf) by pfhaupt.
+
+## Exercise
+
+Once again, we extend the guessing game.
+We now want to store all guesses the user has made in a Vector and print it at the end of the program when the user guesses the correct number.
+
+> [!NOTE]
+> You can use `Vec::new()` to create an empty Vector.
+>
+> ```rust
+> // Like this...
+> let mut vec: Vec<i32> = Vec::new();
+> // or this...
+> let mut vec = Vec::<i32>::new();
+>
+> ```
+
+> [!NOTE]
+> You can use `push` to append items to an array.
+>
+> ```rust
+> let mut vec: Vec<i32> = Vec::new(); // Create empty vector
+> vec.push(5); // Append 5
+> println!("{:?}", vec); // [5]
+> vec.push(22); // Append 22
+> println!("{:?}", vec); // [5, 22]
+> ```
+
+> [!IMPORTANT]
+> Usually variables can be printed using `println!("{}", foo)`, however this does not work for variables of any type.
+> To print a variable that is a vector, we need to use `println!("{:?}", foo)`.
+> The reasons for this are explained later.
