@@ -68,6 +68,7 @@ if i < 5 {
     println!("Hello World!");
     i += 1;
 }
+println!("i = {}", i);
 ```
 
 **Output**
@@ -157,15 +158,15 @@ Of course, `continue` also works as expected, to jump back to the start of the l
 The following example is identical to [Example 1](#example-1), but uses `loop` and `break` instead of `while`.
 
 ```rust
-    let mut i = 0;
-    loop {
-        if i == 5 {
-            break;
-        }
-        println!("Hello World!");
-        i += 1;
+let mut i = 0;
+loop {
+    if i == 5 {
+        break;
     }
-    println!("i = {}", i);
+    println!("Hello World!");
+    i += 1;
+}
+println!("i = {}", i);
 ```
 
 **Output**
