@@ -39,7 +39,7 @@ while i < 5 {
 println!("i = {}", i);
 ```
 
-> [!INFO]
+> [!NOTE]
 > Remember that variables in Rust are immutable by default, so instead of `let` we need to use `let mut` to mark the variable as mutable.
 
 **Output**
