@@ -15,7 +15,7 @@
 | `2024/04/25`        | [Hello World](01_hello_world.md)             | Installing Rust, Setting up the Editor, Variables, Creating a simple Program |
 | `2023/05/02`        | [Control Flow](02_control_flow.md)           | Shadowing, `if`/`else` Clauses, Programming a Guessing Game                  |
 | `2023/05/09`        | &mdash;                                      | _Ascension Day_[^2]                                                          |
-| `2023/05/16`        | [Loops and Vectors](03_loops_and_vectors.md) | `while`, `loop`, `break`, `for`, Ranges, Vectors                             |
+| `2023/05/16`        | [Loops and Vectors](03_loops_and_vectors.md) | `while`, `loop`, `break`, Arrays, Vectors                                    |
 | `2023/05/23`        | &mdash;                                      | _Pentecost Holidays_[^2]                                                     |
 | `2023/05/30`        | _TBA_                                        | &mdash;                                                                      |
 | `2023/06/06`        | _TBA_                                        | &mdash;                                                                      |

@@ -202,7 +202,7 @@ Modify your existing code from last exercise to allow for this.
 
 ## Arrays and Vectors
 
-See [Slides](https://github.com/pfhaupt/progkurs/blob/master/rust-beginner/03%20-%20Arrays%20and%20Vectors/03%20-%20slides.pdf) by pfhaupt.
+See [Slides](https://github.com/pfhaupt/progkurs/blob/master/rust-beginner/03%20-%20Arrays%20and%20Vectors/03%20-%20slides.pdf) by [Philippe Felix Haupt](https://github.com/pfhaupt).
 
 ## Exercise
 
