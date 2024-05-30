@@ -162,6 +162,17 @@ the value is: 9
 the value is: 10
 ```
 
+> [!NOTE]
+>
+> `break` and `continue` also work in `for` loops
+
+### Exercise
+
+Modify the Guessing Game, so that the player is only allowed to guess 5 times.
+
+-   If the player does not guess the correct number in 5 attempts, they lose.
+-   The game should end if the player guesses correctly in less than 5 attempts.
+
 ## Functions
 
 With functions you can define reusable code blocks, i.e. a set of instructions.
