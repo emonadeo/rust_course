@@ -381,8 +381,9 @@ See: https://en.wikipedia.org/wiki/Guard_(computer_science)
 ### Exercise
 
 Write a function that finds a given number (`i32`) in a vector of numbers.
-If the given vector contains the given number, return true.
-Otherwise, return false.
+
+- If the given vector contains the given number, return true.
+- Otherwise, return false.
 
 > [!NOTE]
 >
