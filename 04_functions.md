@@ -374,8 +374,19 @@ fn main() {
 }
 ```
 
+_Editor's Note:_ Update Guessing Game
+
 See: https://en.wikipedia.org/wiki/Guard_(computer_science)
 
 ### Exercise
 
-TODO
+Write a function that finds a given number (`i32`) in a vector of numbers
+
+> [!NOTE]
+>
+> Start with defining the function signature:
+>
+> 1. What parameters do you need?
+> 2. What is the return type?
+
+<!-- Later: Use this exercise to introduce Generics -->
