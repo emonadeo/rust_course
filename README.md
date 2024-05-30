@@ -7,6 +7,7 @@
 1. [Hello World](01_hello_world.md)
 2. [Control Flow](02_control_flow.md)
 3. [Loops and Vectors](03_loops_and_vectors.md)
+4. [Functions](04_functions.md)
 
 ## Schedule
 

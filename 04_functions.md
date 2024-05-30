@@ -1,7 +1,7 @@
 > [!IMPORTANT]
 > This file is a draft and subject to major changes.
 
-# Loops and Vectors
+# Functions
 
 ## Recap
 
@@ -9,6 +9,158 @@
 2. Loop Control Flow: `break`, `continue`
 3. Lists: Arrays (Fixed Length), Vector (Variable Length)
 4. Extending the Guessing Game to allow multiple guesses and store the guesses in a `Vec`.
+
+## `for` loop
+
+There is one more type of loop that was not covered in the previous chapter.
+
+The `for` loop provides a nicer syntax for iterating over _Collections_.
+A Collection is an umbrella term for _arrays_ and _vectors_.
+
+> [!NOTE]
+> More types of Collections exist, but at the moment we only know arrays and vectors
+
+Consider the following scenario:
+We have an Array or Vector containing a collection of values we want to print (or do something else for that matter).
+
+With our current knowledge the code would look like this:
+
+```rust
+fn main() {
+    let my_array = [10, 20, 30, 40, 50];
+    let mut index = 0;
+    while index < 5 {
+        let element = my_array[index];
+        println!("the value is: {}", element);
+
+        index += 1;
+    }
+}
+```
+
+Here, the code counts up through the elements in the array. It starts at index 0, and then loops until it reaches the final index in the array (that is, when index < 5 is no longer true). Running this code will print every element in the array:
+
+**Output**
+
+```console
+the value is: 10
+the value is: 20
+the value is: 30
+the value is: 40
+the value is: 50
+```
+
+All five array values appear in the terminal, as expected.
+Even though index will reach a value of 5 at some point, the loop stops executing before trying to fetch a sixth value from the array.
+
+However, this approach is error prone; we could cause the program to panic if the index value or test condition is incorrect.
+For example, if you changed the definition of the a array to have four elements but forgot to update the condition to while index < 4, the code would panic.
+It’s also slow, because the compiler adds runtime code to perform the conditional check of whether the index is within the bounds of the array on every iteration through the loop.
+
+As a more concise alternative, you can use a for loop and execute some code for each item in a collection.
+
+```rust
+fn main() {
+    let my_array = [10, 20, 30, 40, 50];
+    for element in my_array {
+        println!("the value is: {}", element);
+    }
+}
+```
+
+**Output**
+
+```console
+the value is: 10
+the value is: 20
+the value is: 30
+the value is: 40
+the value is: 50
+```
+
+### Ranges
+
+Even in situations in which you want to run some code a certain number of times, using a `while` loop and a mutable counter variable is not preferable.
+
+```rust
+fn main() {
+    let mut number = 1;
+    while number < 10 {
+        println!("the value is: {}", number);
+        number += 1;
+    }
+}
+```
+
+**Output**
+
+```console
+the value is: 1
+the value is: 2
+the value is: 3
+the value is: 4
+the value is: 5
+the value is: 6
+the value is: 7
+the value is: 8
+the value is: 9
+```
+
+The way to do that would be to use a **Range**,
+which generates all numbers in sequence starting from one number and ending before another number.
+
+A Range is in fact a Collection. A Collection of integers, that is.
+
+This means we can use it in a `for` loop.
+
+```rust
+fn main() {
+    for number in (1..10) {
+        println!("the value is: {}", number);
+    }
+}
+```
+
+**Output**
+
+```console
+the value is: 1
+the value is: 2
+the value is: 3
+the value is: 4
+the value is: 5
+the value is: 6
+the value is: 7
+the value is: 8
+the value is: 9
+```
+
+As you can see, the number `10` is not printed, because Ranges are not inclusive.
+
+To generate an inclusive Range, use a `=`.
+
+```rust
+fn main() {
+    for number in (1..=10) {
+        println!("the value is: {}", number);
+    }
+}
+```
+
+**Output**
+
+```console
+the value is: 1
+the value is: 2
+the value is: 3
+the value is: 4
+the value is: 5
+the value is: 6
+the value is: 7
+the value is: 8
+the value is: 9
+the value is: 10
+```
 
 ## Functions
 
