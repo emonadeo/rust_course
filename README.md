@@ -8,6 +8,7 @@
 2. [Control Flow](02_control_flow.md)
 3. [Loops and Vectors](03_loops_and_vectors.md)
 4. [Functions](04_functions.md)
+5. [Ownership and Borrowing](05_ownership.md)
 
 ## Schedule
 
@@ -19,7 +20,7 @@
 | `2023/05/16`        | [Loops and Vectors](03_loops_and_vectors.md) | `while`, `loop`, `break`, Arrays, Vectors                                    |
 | `2023/05/23`        | &mdash;                                      | _Pentecost Holidays_[^2]                                                     |
 | `2023/05/30`        | [Functions](04_functions.md)                 | Functions                                                                    |
-| `2023/06/06`        | _TBA_                                        | &mdash;                                                                      |
+| `2023/06/06`        | [Ownership and Borrowing](05_ownership.md)   | Ownership, Scopes, Immutable References, Mutable References                  |
 | `2023/06/13`        | _TBA_                                        | &mdash;                                                                      |
 | `2023/06/20`        | _TBA_                                        | &mdash;                                                                      |
 | `2023/06/27`        | _TBA_                                        | &mdash;                                                                      |

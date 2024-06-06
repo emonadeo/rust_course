@@ -1,6 +1,3 @@
-> [!IMPORTANT]
-> This file is a draft and subject to major changes.
-
 # Functions
 
 ## Recap
@@ -382,8 +379,8 @@ See: https://en.wikipedia.org/wiki/Guard_(computer_science)
 
 Write a function that finds a given number (`i32`) in a vector of numbers.
 
-- If the given vector contains the given number, return true.
-- Otherwise, return false.
+-   If the given vector contains the given number, return true.
+-   Otherwise, return false.
 
 > [!NOTE]
 >

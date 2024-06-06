@@ -1,6 +1,3 @@
-> [!IMPORTANT]
-> This file is a draft and subject to major changes.
-
 # Loops and Vectors
 
 ## Recap
