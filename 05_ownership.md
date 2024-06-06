@@ -52,7 +52,7 @@ note: consider changing this parameter type in function `greet` to borrow instea
   |    in this function
 ```
 
-> [TIP!]
+> [!TIP]
 > Errors highlighted in your Text Editor quickly become difficult to look at.
 > It is recommended to run `cargo build` in the terminal anyways,
 > as the Rust Compiler provides a detailed overview and usually very useful hints.
@@ -125,7 +125,7 @@ The variable is valid from the point at which it’s declared until the end of t
 
 ### Borrowing using Immutable References
 
-TODO
+See [Slides](https://github.com/pfhaupt/progkurs/blob/master/rust-beginner/05%20-%20Ownership%20and%20Borrow%20Checker/05%20-%20RUSTikales%20Rust%20for%20beginners.pptx) by [Philippe Felix Haupt](https://github.com/pfhaupt).
 
 ```rust
 fn greet(name: &String) {
@@ -194,11 +194,7 @@ fn main() {
 
 ### Borrowing using Mutable References
 
-TODO
-
 > [!Important]
 > You can **either** have _1 mutable reference_ to a value **or** _any number of immutable references_.
 
-### Slices
-
-TODO (Next week?)
+See [Slides](https://github.com/pfhaupt/progkurs/blob/master/rust-beginner/05%20-%20Ownership%20and%20Borrow%20Checker/05%20-%20RUSTikales%20Rust%20for%20beginners.pptx) by [Philippe Felix Haupt](https://github.com/pfhaupt).
