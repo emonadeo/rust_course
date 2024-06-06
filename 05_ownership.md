@@ -117,7 +117,11 @@ The variable is valid from the point at which it’s declared until the end of t
 > A scope is denoted by curly braces (`{}`).  
 > Functions also have their own scope (Parameters treated like Variables).
 
-### To be continued in [Slides](https://github.com/pfhaupt/progkurs/blob/master/rust-beginner/03%20-%20Arrays%20and%20Vectors/03%20-%20slides.pdf) by [Philippe Felix Haupt](https://github.com/pfhaupt).
+### To be continued in [Slides](https://github.com/pfhaupt/progkurs/blob/master/rust-beginner/05%20-%20Ownership%20and%20Borrow%20Checker/05%20-%20RUSTikales%20Rust%20for%20beginners.pptx) by [Philippe Felix Haupt](https://github.com/pfhaupt).
+
+> [!NOTE]
+> The slides are currently in `.pptx`.
+> They will be available as `.pdf` next week.
 
 ### Borrowing using Immutable References
 
