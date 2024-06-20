@@ -117,15 +117,11 @@ The variable is valid from the point at which it’s declared until the end of t
 > A scope is denoted by curly braces (`{}`).  
 > Functions also have their own scope (Parameters treated like Variables).
 
-### To be continued in [Slides](https://github.com/pfhaupt/progkurs/blob/master/rust-beginner/05%20-%20Ownership%20and%20Borrow%20Checker/05%20-%20RUSTikales%20Rust%20for%20beginners.pptx) by [Philippe Felix Haupt](https://github.com/pfhaupt).
-
-> [!NOTE]
-> The slides are currently in `.pptx`.
-> They will be available as `.pdf` next week.
+### To be continued in [Slides](https://github.com/pfhaupt/progkurs/blob/794c7d4916789ae00e5000b7a3ad4ffbb6f48939/rust-beginner/05%20-%20Ownership%20and%20Borrow%20Checker/05%20-%20slides.pdf) by [Philippe Felix Haupt](https://github.com/pfhaupt).
 
 ### Borrowing using Immutable References
 
-See [Slides](https://github.com/pfhaupt/progkurs/blob/master/rust-beginner/05%20-%20Ownership%20and%20Borrow%20Checker/05%20-%20RUSTikales%20Rust%20for%20beginners.pptx) by [Philippe Felix Haupt](https://github.com/pfhaupt).
+See [Slides](https://github.com/pfhaupt/progkurs/blob/794c7d4916789ae00e5000b7a3ad4ffbb6f48939/rust-beginner/05%20-%20Ownership%20and%20Borrow%20Checker/05%20-%20slides.pdf) by [Philippe Felix Haupt](https://github.com/pfhaupt).
 
 ```rust
 fn greet(name: &String) {
@@ -197,4 +193,4 @@ fn main() {
 > [!Important]
 > You can **either** have _1 mutable reference_ to a value **or** _any number of immutable references_.
 
-See [Slides](https://github.com/pfhaupt/progkurs/blob/master/rust-beginner/05%20-%20Ownership%20and%20Borrow%20Checker/05%20-%20RUSTikales%20Rust%20for%20beginners.pptx) by [Philippe Felix Haupt](https://github.com/pfhaupt).
+See [Slides](https://github.com/pfhaupt/progkurs/blob/794c7d4916789ae00e5000b7a3ad4ffbb6f48939/rust-beginner/05%20-%20Ownership%20and%20Borrow%20Checker/05%20-%20slides.pdf) by [Philippe Felix Haupt](https://github.com/pfhaupt).
