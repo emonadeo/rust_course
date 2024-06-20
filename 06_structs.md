@@ -78,48 +78,48 @@ fn main() {
 
 > [!TIP]
 > You can use the range syntax (e.g. `1..6`) with variables:
->
-> **Example**
->
-> ```rust
-> fn main() {
->     let start = 5;
->     let stop = 10;
->     for i in start..stop {
->         println!("{}", i);
->     }
-> }
-> ```
->
-> **Output**
->
-> ```console
-> 5
-> 6
-> 7
-> 8
-> 9
-> ```
+
+**Example**
+
+```rust
+fn main() {
+    let start = 5;
+    let stop = 10;
+    for i in start..stop {
+        println!("{}", i);
+    }
+}
+```
+
+**Output**
+
+```console
+5
+6
+7
+8
+9
+```
 
 > [!TIP]
 > You may want to use `print!` instead of `println!`.
 > `print!` is equivalent to `println!`, except that a line break is **not** printed at the end of the message.
->
-> **Example**
->
-> ```rust
-> fn main() {
->     print!("#");
->     print!("#");
->     print!("#");
-> }
-> ```
->
-> **Output**
->
-> ```console
-> ###
-> ```
+
+**Example**
+
+```rust
+fn main() {
+    print!("#");
+    print!("#");
+    print!("#");
+}
+```
+
+**Output**
+
+```console
+###
+```
 
 > [!TIP]
 > You can create a line break using either `print!("\n")` or `println!()`.
