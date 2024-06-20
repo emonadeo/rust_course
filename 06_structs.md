@@ -46,11 +46,9 @@ Because the pointer to the heap is a known, fixed size, you can store the pointe
 Pushing to the stack is faster than allocating on the heap because the allocator never has to search for a place to store new data; that location is always at the top of the stack.
 Comparatively, allocating space on the heap requires more work because the allocator must first find a big enough space to hold the data and then perform bookkeeping to prepare for the next allocation.
 
-[^1]: (https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#the-stack-and-the-heap)
-
 ## Structs
 
-See [Slides](https://github.com/pfhaupt/progkurs/blob/794c7d4916789ae00e5000b7a3ad4ffbb6f48939/rust-beginner/08%20-%20Structs/08%20-%20RUSTikales%20Rust%20for%20beginners.pptx) by [Philippe Felix Haupt](https://github.com/pfhaupt).
+See [Slides](06_structs_slides.pdf) by [Philippe Felix Haupt](https://github.com/pfhaupt).
 
 ## Exercise 1
 
@@ -84,10 +82,12 @@ fn main() {
 > **Example**
 >
 > ```rust
-> let start = 5;
-> let stop = 10;
-> for i in start..stop {
->     println!("{}", i);
+> fn main() {
+>     let start = 5;
+>     let stop = 10;
+>     for i in start..stop {
+>         println!("{}", i);
+>     }
 > }
 > ```
 >
@@ -108,9 +108,11 @@ fn main() {
 > **Example**
 >
 > ```rust
-> print!("#")
-> print!("#")
-> print!("#")
+> fn main() {
+>     print!("#");
+>     print!("#");
+>     print!("#");
+> }
 > ```
 >
 > **Output**
@@ -149,3 +151,5 @@ fn main() {
 .....##########
 .....##########
 ```
+
+[^1]: (https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#the-stack-and-the-heap)
