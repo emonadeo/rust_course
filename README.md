@@ -10,6 +10,7 @@
 4. [Functions](04_functions.md)
 5. [Ownership and Borrowing](05_ownership.md)
 6. [Structs](06_structs.md)
+7. Traits and Exam Preparation
 
 ## Schedule
 
@@ -24,8 +25,8 @@
 | `2023/06/06`        | [Ownership and Borrowing](05_ownership.md)   | Ownership, Scopes, Immutable References, Mutable References                  |
 | `2023/06/13`        | &mdash;                                      | _Output.DD_                                                                  |
 | `2023/06/20`        | [Structs](06_structs.md)                     | Structs, Heap vs. Stack                                                      |
-| `2023/06/27`        | _TBA_                                        | &mdash;                                                                      |
-| `2023/07/04`        | _TBA_                                        | &mdash;                                                                      |
+| `2023/06/27`        | _Structs_                                    | Repetition of `2023/06/20`                                                   |
+| `2023/07/04`        | Traits and Exam Preparation                  | Traits, Specific Traits (`From`, `Into`, `AsRef`, ...), Tuples               |
 | `2023/07/11`        | _TBA_                                        | &mdash;                                                                      |
 | `2023/07/18`        | _TBA_                                        | &mdash;                                                                      |
 
