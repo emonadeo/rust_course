@@ -2,13 +2,63 @@
 
 ## Slices
 
-TODO
+[^1]
+
+Slices let you reference a contiguous sequence of elements in a collection rather than the whole collection.
+A slice is a kind of reference, so it does not have ownership.
+
+```rust
+let s: String = String::from("hello world");
+
+let hello: &str = &s[0..5];
+let world: &str = &s[6..11];
+```
+
+Rather than a reference to the entire string, `hello` is a reference to a portion of the string, specified in the extra `[0..5]` bit.
+We create slices using a range within brackets by specifying `[starting_index..ending_index]`,
+where `starting_index` is the first position in the slice and `ending_index` is one more than the last position in the slice.
+
+<img src="assets/07_slices.svg" width="300" />
+
+With Rust’s `..` range syntax, if you want to start at index `0,` you can drop the value before the two periods.
+In other words, these are equal:
+
+```rust
+let s = String::from("hello");
+
+let slice = &s[0..2];
+let slice = &s[..2];
+```
+
+Likewise, if your slice includes the last byte of the string, you can drop the trailing number.
+That means these are equal:
+
+```rust
+let s = String::from("hello");
+
+let len = s.len();
+
+let slice = &s[3..len];
+let slice = &s[3..];
+```
+
+Finally, you can also drop both values to take a slice of the entire string.
+So these are equal:
+
+```rust
+let s = String::from("hello");
+
+let len = s.len();
+
+let slice = &s[0..len];
+let slice = &s[..];
+```
 
 ## Generics
 
 ### Generics in Functions
 
-[^1]
+[^2]
 
 Consider the following scenario: We want to create a function that finds and returns the largest number in a given list of numbers.
 
@@ -245,11 +295,9 @@ fn main() {
 
 ## Traits
 
-TODO
+See [Slides](07_traits_slides.pdf) by [Philippe Felix Haupt](https://github.com/pfhaupt).
 
 ### The `From` and `Into` Trait
-
-TODO
 
 ```rust
 struct Point<X, Y> {
@@ -288,4 +336,5 @@ fn main() {
 
 TODO
 
-[^1]: (https://doc.rust-lang.org/book/ch10-01-syntax.html#in-function-definitions)
+[^1] https://doc.rust-lang.org/book/ch04-03-slices.html#the-slice-type
+[^2]: (https://doc.rust-lang.org/book/ch10-01-syntax.html#in-function-definitions)
