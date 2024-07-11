@@ -10,7 +10,7 @@
 4. [Functions](04_functions.md)
 5. [Ownership and Borrowing](05_ownership.md)
 6. [Structs](06_structs.md)
-7. [Traits](07_generics_and_traits.md)
+7. [Generics & Traits](07_generics_and_traits.md)
 
 ## Schedule
 

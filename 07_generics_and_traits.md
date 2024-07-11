@@ -336,5 +336,5 @@ fn main() {
 
 TODO
 
-[^1] https://doc.rust-lang.org/book/ch04-03-slices.html#the-slice-type
+[^1]: https://doc.rust-lang.org/book/ch04-03-slices.html#the-slice-type
 [^2]: (https://doc.rust-lang.org/book/ch10-01-syntax.html#in-function-definitions)
