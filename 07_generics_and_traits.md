@@ -297,6 +297,27 @@ fn main() {
 
 See [Slides](07_traits_slides.pdf) by [Philippe Felix Haupt](https://github.com/pfhaupt).
 
+### Fixing the `largest`-function
+
+With Traits, we can finally fix the compiler error from earlier, by introducing a **trait boundary** for the generic type `T`.
+
+The trait `std::cmp::PartialOrd` is built into the standard library of Rust and defines comparison operations on a type (`<`, `>`, `<=`, etc.).
+
+```rust
+fn largest<T>(list: &[T]) -> &T
+where T: std::cmp::PartialOrd {
+    let mut largest = &list[0];
+    for item in list {
+        if item > largest {
+            largest = item;
+        }
+    }
+    return largest;
+}
+```
+
+By doing so, we are only allowing `T` to be a type with well-defined comparison operations.
+
 ### The `From` and `Into` Trait
 
 ```rust
